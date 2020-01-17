@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.menu{
+    background: olive;
+    padding: 20px;
+    text-align: right;
+}
+a{
+    padding: 8px;
+    color: orange;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: black;
+    background: orangered;
+}
+/* video */
+iframe{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    
+}
+video{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+/*tablas*/
+table, td, th{
+    /* width: 40%; */
+    /* margin: auto; */
+    /* border: 2px solid crimson; */
+    font-size: 20px;
+    /*para unir los cuadros internos de la tabla*/
+    /* border-collapse: collapse; */
+    border-style: ridge;
+    text-align: center;
+}
+th:hover{
+    background: black;
+    color: red;
+}
+td{
+    color: brown;
+}
+th{
+    color: blue;
+}
+.tabla{
+    /* display: flex;    */
+}
+#tb{
+    /*funciona para separar los elementos*/
+    /* float: right;  */
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    
+}
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+
+}
